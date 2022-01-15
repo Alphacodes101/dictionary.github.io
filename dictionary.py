@@ -5,59 +5,59 @@
 
 
 
-# thisdict = {
-#   "brand": "Ford",
-#   "model": "Mustang",
-#   "year": 1964
-# } 
-# print(thisdict)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+} 
+print(thisdict)
 
-# # Dictionary Items
-# thisdict = {
-#   "brand": "bmw",
-#   "model": "Mustang",
-#   "year": 1964
-# }
-# print(thisdict["brand"])
+#  Dictionary Items
+thisdict = {
+  "brand": "bmw",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
 
-# # Duplicates Not Allowed
-# thisdict = {
-#   "brand": "Ford",
-#   "model": "Mustang",
-#   "year": 1964,
-#   "year": 2020
-# }
-# print(thisdict)
+#  Duplicates Not Allowed
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(thisdict)
 
-# # Dictionary Length
-# print(len(thisdict)) 
+#  Dictionary Length
+print(len(thisdict)) 
 
-# # Dictionary Items - Data Types
-# thisdict = {
-#   "brand": "Ford",
-#   "electric": False,
-#   "year": 1964,
-#   "colors": ["red", "white", "blue"]
-# }
-# print("thisdict")
+#  Dictionary Items - Data Types
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+print("thisdict")
 
-# # type()
-# thisdict = {
-#   "brand": "Ford",
-#   "model": "Mustang",
-#   "year": 1964
-# }
-# print(type(thisdict))
+#  type()
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(type(thisdict))
 
 
-# # accessing items list 
-# thisdict={
-#   "brand":"ford",
-#   "model":"mustang",
-#   "year":1994
-# }
-# x=thisdict["model"]
-# print(thisdict)
+#  accessing items list 
+thisdict={
+  "brand":"ford",
+  "model":"mustang",
+  "year":1994
+}
+x=thisdict["model"]
+print(thisdict)
 
 # access items from dictionaries
 thisdict = {
@@ -68,7 +68,7 @@ thisdict = {
 x = thisdict["model"]
 print(x)
 
-# #  get keys 
+# get keys 
 car = {
 "brand": "Ford",
 "model": "Mustang",
@@ -84,8 +84,7 @@ car["color"] = "white"
 print(x) #after the change
 
 
-# # get values 
-
+#  get values 
 car = {
 "brand": "Ford",
 "model": "Mustang",
@@ -101,7 +100,7 @@ car["year"] = 2020
 print(x) #after the change
 
 
-# #  check if  keys exits 
+# check if  keys exits 
 car = {
   "brand": "Ford",
   "model": "Mustang",
@@ -112,7 +111,7 @@ if "model" in thisdict:
            dictionary''')
 
 
-# # changes values 
+# changes values 
 thisdict ={
    "brand":"Ford",
    "model":"Mustang",
@@ -122,7 +121,7 @@ thisdict ={
 thisdict["year"] = 2018
 print(thisdict)
 
-# # update dictionaries 
+# update dictionaries 
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -130,7 +129,7 @@ thisdict = {
 }
 thisdict.update({"year": 2020})
 
-# # add items 
+# add items 
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -139,7 +138,7 @@ thisdict = {
 thisdict["color"] = "red"
 print(thisdict)
  
-# # updatae items
+# updatae items
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -148,7 +147,7 @@ thisdict = {
 thisdict.update({"color": "red"})
 print(thisdict)
 
-# # remove items
+# remove items
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -157,7 +156,7 @@ thisdict = {
 thisdict.pop("model")
 print(thisdict)
 
-# # loop dictionaries 
+# loop dictionaries 
 thisdict =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -166,7 +165,7 @@ thisdict =	{
 for x in thisdict:
   print(x)
 
-# # items 
+# items 
 thisdict =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -175,7 +174,7 @@ thisdict =	{
 for x, y in thisdict.items():
   print(x, y)
 
-# # copy dictionaries 
+# copy dictionaries 
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -207,7 +206,7 @@ print(myfamily)
 
 
 
-# # DICTIONARIES METHODS
+# DICTIONARIES METHODS
 '''
 
 Method	         Description
